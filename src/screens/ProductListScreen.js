@@ -26,7 +26,7 @@ const ProductListScreen = ({ navigation }) => {
           onPress={goBack}
           className=" justify-center items-center h-10 w-10 mx-4 rounded-full "
         >
-          <MaterialIcons name="chevron-left" size={34} color={"#111"} />
+          <MaterialIcons name="chevron-left" size={34} color={"#blue"} />
         </Pressable>
       ),
       headerStyle: {

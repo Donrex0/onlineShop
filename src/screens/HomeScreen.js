@@ -33,7 +33,7 @@ const Home = ({ navigation }) => {
       <ScrollView>
         <View className="flex-row px-5 mt-6 justify-between items-center">
           <View className="bg-black rounded-full w-10 h-10 justify-center items-center">
-            <MaterialIcons name="menu" size={24} color={"#fff"} />
+            <MaterialIcons name="menu" size={24} color={"#ffff"} />
           </View>
           {!isLoggedIn &&(
             <Pressable onPress={() => setModalVisible(!modalVisible)} className="flex-row items-center justify-center border border-slate-400 rounded-full ">
@@ -61,7 +61,7 @@ const Home = ({ navigation }) => {
         <View className="mt-6 px-5">
           <View className="flex-row bg-gray-200 p-2 px-3 items-center rounded-3xl">
             <View className="">
-              <MaterialIcons name="search" size={24} color={"#111"} />
+              <MaterialIcons name="search" size={24} color={"#111"} font={"poppins"}/>
             </View>
             <TextInput
               placeholder="Search..."
@@ -76,7 +76,7 @@ const Home = ({ navigation }) => {
         </View>
         <View className="mt-4">
           <View className="flex-row justify-between items-center px-5">
-            <Text className="text-lg font-extrabold">New Arrivals</Text>
+            <Text className="text-lg font-extrabold">Whats New? </Text>
             <Pressable onPress={() => navigation.navigate("productlistscreen")}>
               <Text className="text-xs text-gray-500">View All</Text>
             </Pressable>

@@ -33,7 +33,7 @@ const CartStackNavigator = () => {
     initialRouteName='cart-screen'
     screenOptions={{
         headerStyle:{
-            backgroundColor:"#91c4f8"
+            backgroundColor:"#FFCC9"
         },
         headerShown:false
     }}
